@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*- 
 # !/usr/bin/python
 
-zzzz
-
-# Disclaimer: Do Not Use this program for illegal purposes ;)
-
 import argparse
 import logging
 import sys
