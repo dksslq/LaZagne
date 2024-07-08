@@ -1,6 +1,7 @@
 name: Build and Upload LaZagne Release
 
 on:
+  workflow_dispatch
   push:
     # Sequence of patterns matched against refs/tags
     tags:
