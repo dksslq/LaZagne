@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*- 
 # !/usr/bin/python
 
-##############################################################################
-#                                                                            #
-#                           By Alessandro ZANNI                              #
-#                                                                            #
-##############################################################################
+zzzz
 
 # Disclaimer: Do Not Use this program for illegal purposes ;)
 
