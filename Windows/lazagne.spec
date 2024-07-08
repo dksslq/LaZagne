@@ -20,7 +20,7 @@ for d in a.datas:
         a.datas.remove(d)
         break
 
-pyz = PYZ(a.pure)
+pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 exe = EXE(
         pyz,
         a.scripts,
