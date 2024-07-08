@@ -20,7 +20,7 @@ for d in a.datas:
         a.datas.remove(d)
         break
 
-pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
+pyz = PYZ(a.pure, a.zipped_data, cipher=None)
 exe = EXE(
         pyz,
         a.scripts,
@@ -30,7 +30,7 @@ exe = EXE(
         a.zipfiles,
         a.datas,
         name='lazagne.exe',
-        debug=False,
+        debug=True,
         strip=None,
         upx=False,
         console=True
